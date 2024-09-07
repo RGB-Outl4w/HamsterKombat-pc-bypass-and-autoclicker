@@ -19,7 +19,7 @@ Hi everyone, today you will be able to run Hamster Kombat in multiple browsers +
 
 2. Open the extension's settings:
    - **From:** `https://hamsterkombat.io/js/telegram-web-app.js`. 
-   - **To:** `https://raw.githubusercontent.com/RGB-Outl4w/strawberry-bubble-gum/main/telegram-web-app.js`.
+   - **To:** `https://raw.githubusercontent.com/RGB-Outl4w/strawberry-bubble-gum/main/telegram-web-app.js`
 
 ## Step 2: Install Autoclicker
 
