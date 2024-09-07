@@ -19,7 +19,7 @@ Hi everyone, today you will be able to run Hamster Kombat in multiple browsers +
 
 2. Open the extension's settings:
    - **From:** `https://hamsterkombat.io/js/telegram-web-app.js`. 
-   - **To:** `https://ktnff.tech/hamsterkombat/telegram-web-app.js`.
+   - **To:** `https://raw.githubusercontent.com/RGB-Outl4w/strawberry-bubble-gum/main/telegram-web-app.js`.
 
 ## Step 2: Install Autoclicker
 
@@ -36,8 +36,7 @@ Hi everyone, today you will be able to run Hamster Kombat in multiple browsers +
 
 1. Go to the Hamster Kombat bot in Telegram:
 
-   - **Referral link (with bonus):** [https://t.me/hamster_kombat_bot/start?startapp=kentId2001120886](https://t.me/hamster_kombat_bot/start?startapp=kentId2001120886)
-   - **Regular link:** [https://t.me/hamster_kombat_bot](https://t.me/hamster_kombat_bot)
+   - **Link:** [https://t.me/hamster_kombat_bot](https://t.me/hamster_kombat_bot)
 
 2. Click "Play" and complete a few tasks in the "Earn" section.
 3. Spend all the tokens you get to pump your profit per hour.
