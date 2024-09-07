@@ -1,21 +1,3 @@
-Donation
----
-We accept the following cryptocurrencies:
-
-- **TON**: `UQAC6zTt3t0oNjb51AQcrOazHEzFIHnOj8sOjLPO-GTttCyWl`.
-
-- **USDT**(TRC20): `TXzLoiJHAnZc5tL2pyjNdXaF3snmwmg2x5`
-
-- **USDT**(TON): `UQAC6zTt3t0oNjb51AQcrOazHEzFIHnOj8sOjLPO-GTttCyWl`
-
-- **NOTCOIN**(TON): `UQAC6zTt3t0oNjb51AQcrOazHEzFIHnOj8sOjLPO-GTttCyWl`.
-
-- **BTC**: `122j6k2GTz3roZsiX9H2QAyqec83tmsP6q`
-
-Donations will be used to maintain/save the project.
-
-> Contacts: [Telegram](https://t.me/kittenwof)
-
 ## Languages
 [![Russian README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ru.png)](README.md) [![English README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/us.png)](README_EN.md) 
 

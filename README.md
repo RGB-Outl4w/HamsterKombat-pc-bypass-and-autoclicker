@@ -1,24 +1,4 @@
-Пожертвование
----
-Мы принимаем следующие криптовалюты:
-
-- **TON**: `UQAC6zTt3t0oNjb51AQcrOazHEzFIHnOj8sOjLPO-GTtCyWl`
-
-- **USDT**(TRC20): `TXzLoiJHAnZc5tL2pyjNdXaF3snmwmg2x5`
-
-- **USDT**(TON): `UQAC6zTt3t0oNjb51AQcrOazHEzFIHnOj8sOjLPO-GTtCyWl`
-
-- **NOTCOIN**(TON): `UQAC6zTt3t0oNjb51AQcrOazHEzFIHnOj8sOjLPO-GTtCyWl`
-
-- **BTC**: `122j6k2GTz3roZsiX9H2QAyqec83tmsP6q`
-
-Пожертвования будут использованы для поддержания/сохранения проекта.
-
-<img src="https://github.com/VemLavarALoucaGamers/vlalg-nimbus/blob/main/editable/github-star.gif" alt="nimbus-star" />
-
-> Контакты: [Telegram](https://t.me/kittenwof)
-
-## Languages
+## Languages / Языки
 [![Russian README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ru.png)](README.md) [![English README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/us.png)](README_EN.md) 
 
 ## Введение
@@ -93,9 +73,3 @@
 ## Заключение
 
 Теперь вы знаете, как фармить токены в Hamster Kombat на нескольких аккаунтах. Удачи! 
-
----
-
-### 🌟 История звезд
-
-[![Star History Chart](https://api.star-history.com/svg?repos=ilfae/autoclicker-browser-HamsterKombat&type=Date)](https://star-history.com/#ilfae/autoclicker-browser-HamsterKombat&Date)
