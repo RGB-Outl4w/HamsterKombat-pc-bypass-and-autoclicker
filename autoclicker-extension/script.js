@@ -1,16 +1,16 @@
 document.getElementById('toggleButton').addEventListener('click', () => {
-  // Отправляем сообщение в background.js
+  // Send a message to background.js
   chrome.runtime.sendMessage({ action: 'toggleAutoClick' }); 
 
-  // Меняем текст кнопки
+  // Change the button text
   const button = document.getElementById('toggleButton');
-  button.innerText = button.innerText === 'Вкл' ? 'Выкл' : 'Вкл'; 
+  button.innerText = button.innerText === 'Enable' ? 'Disable' : 'Enable'; 
 });
 
-// Слушатель сообщений от background.js
+// Message listener (from background.js)
 chrome.runtime.onMessage.addListener(request => {
   if (request.action === 'updateButton') {
-    // Обновляем кнопку
-    document.getElementById('toggleButton').innerText = request.isActive ? 'Выкл' : 'Вкл';
+    // Refresh the button
+    document.getElementById('toggleButton').innerText = request.isActive ? 'Disable' : 'Enable';
   }
 });
