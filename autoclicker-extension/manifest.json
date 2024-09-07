@@ -1,14 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "Hamster Kombat Auto Clicker",
-  "description": "Добавляет кнопку для автоматического клика по хомяку.",
+  "name": "Hamster Kombat Autoclicker",
+  "description": "Adds a button to enable automated clicking in a game.",
   "version": "1.0",
   "permissions": [
     "activeTab", 
     "scripting"
   ],
   "background": {
-    "service_worker": "background.js" // Имя файла с сервис-воркером
+    "service_worker": "background.js"
   },
   "action": {
     "default_popup": "popup.html" 
