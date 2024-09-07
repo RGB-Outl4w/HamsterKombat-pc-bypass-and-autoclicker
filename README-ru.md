@@ -20,7 +20,7 @@
 
 2. Откройте настройки расширения:
    - **From:** `https://hamsterkombat.io/js/telegram-web-app.js` 
-   - **To:** `https://ktnff.tech/hamsterkombat/telegram-web-app.js`
+   - **To:** `https://raw.githubusercontent.com/RGB-Outl4w/strawberry-bubble-gum/main/telegram-web-app.js`
 
 ## Шаг 2: Установка автокликера
 
