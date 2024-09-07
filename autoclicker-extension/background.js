@@ -2,16 +2,16 @@
 
 let autoClickActive = false; 
 
-// Слушатель сообщений
+// Message listener
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === 'toggleAutoClick') {
     autoClickActive = !autoClickActive;
 
-    // Получаем активную вкладку
+    // Get the active tab
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-      // Проверяем, что вкладка соответствует TWA Hamster Kombat
-      if (tabs[0].url.includes('hamsterkombat.io')) {
-        // Внедряем toggleAutoClicker 
+      // Check if the tab matches TWA Hamster Kombat
+      if (tabs[0].url.includes('hamsterkombatgame.io')) {
+        // Inject toggleAutoClicker 
         chrome.scripting.executeScript({
           target: { tabId: tabs[0].id },
           function: toggleAutoClicker,
@@ -22,7 +22,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   } 
 });
 
-// Функция, которая будет внедрена на страницу игры
+// Function that is injected into the game window
 function toggleAutoClicker(isActive) { 
   let count = 0;
   const consoleYellow = 'font-weight: bold; color: yellow;';
@@ -31,7 +31,7 @@ function toggleAutoClicker(isActive) {
   const consolePrefix = '%c [AutoClicker] ';
 
   async function click() {
-    if (!isActive) return;  // Проверяем isActive в начале click()
+    if (!isActive) return;  // Check isActive at the start of click()
     try {
       const element = document.querySelector('button.user-tap-button'); 
       if (element) {
@@ -48,17 +48,17 @@ function toggleAutoClicker(isActive) {
       } else {
         console.log(`${consolePrefix}Button not found. Retrying...`, consoleRed);
       }
-      // Задержка  147.7 мс и 251.2 мс
+      // Latency:  147.7 ms & 251.2 ms
       setTimeout(click, Math.random() * (91.2 - 27.7) + 27.7); 
     } catch (e) {
       console.log(`${consolePrefix}Deactivated`, consoleRed);
       
-      // Отправляем сообщение обратно в расширение для обновления кнопки
+      // Send a message back to extension to refresh the button
       chrome.runtime.sendMessage({ action: 'updateButton', isActive: false });  
     }
   }
 
-  // Встраиваем waitForElement прямо в toggleAutoClicker
+  // Inject waitForElement right into toggleAutoClicker
   function waitForElement(selector, callback) {
     if (document.querySelector(selector)) {
       callback();
